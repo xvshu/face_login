@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>人脸登陆</title>
+    <link rel="stylesheet" href="/static/css/user_form.css">
+</head>
+<body>
+<header>
+    <div class="header-line"></div>
+</header>
+<div class="content">
+    <img class="content-logo" src="/static/img/logo.png" alt="logo">
+    <h1 class="content-title">账户登陆</h1>
+    <div class="content-form">
+        <form method="post"  action="/face/query" enctype="multipart/form-data" >
+            <div id="change_margin_1">
+                用户组： <input class="user" type="text"  name="ugroup" >
+            </div>
+            <div id="change_margin_1">
+                用户人脸： <input class="user" type="file" name="imagefile" style="width:160px;" />
+            </div>
+            <p id="remind_2"></p>
+            <div id="change_margin_3">
+                <input class="content-form-signup" type="submit" value="登陆">
+            </div>
+        </form>
+    </div>
+    <div class="content-login-description">还没有账户？</div>
+    <div><a class="content-login-link" href="face_insert_html">注册</a></div>
+</div>
+</body>
+</html>

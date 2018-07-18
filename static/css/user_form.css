@@ -1,0 +1,103 @@
+/*重置样式*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub
+, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header,
+hgroup, menu, nav, output, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+body {
+    font-family: "微软雅黑";
+    background: #f4f4f4;
+}
+
+/*header*/
+.header-line {
+    width: 100%;
+    height: 4px;
+    background: #0dbfdd;
+}
+
+/*content*/
+.content {
+    width: 28%;
+    margin: 70px auto 0;
+    text-align: center;
+}
+.content-logo {
+    width: 80px;
+    height: 80px;
+}
+.content-title {
+    margin: 10px 0 25px 0;
+    font-size: 2em;
+    color: #747474;
+    font-weight: normal;
+}
+.content-form {
+    width: 100%;
+    padding: 36px 0 20px;
+    border: 1px solid  #dedede;
+    text-align: center;
+    background: #fff;
+}
+.content-form form div {
+    margin-bottom: 19px;
+}
+.content-form form .user,
+.content-form form .password {
+    width: 77%;
+    height: 20px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid  #cccbcb;
+    border-radius: 7px;
+    letter-spacing: 1px;
+}
+.content-form form input:focus {
+    outline: none;
+    -webkit-box-shadow: 0 0 5px #0dbfdd;
+    box-shadow: 0 0 5px #0dbfdd;
+}
+.content-form-signup {
+    width: 84%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid  #cccbcb;
+    border-radius: 7px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background: #0dbfdd;
+    cursor: pointer;
+}
+.content-form-signup:hover {
+    background: #0cb3d0;
+}
+.content-form-signup:focus {
+    outline: none;
+    border: 1px solid  #0cb3d0;
+}
+.content-login-description {
+    margin-top: 25px;
+    line-height: 1.63636364;
+    color: #747474;
+    font-size: .91666667rem;
+}
+.content-login-link {
+    font-size: 16px;
+    color: #0dbfdd;
+    text-decoration: none;
+}
+
+/*输入框无内容便提示*/
+#remind_1,
+#remind_2 {
+    width: 76%;
+    margin: 0 auto 2px;
+    text-align: left;
+    font-size: .2em;
+    color: #f00;
+}
